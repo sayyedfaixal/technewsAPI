@@ -7,7 +7,7 @@ const Search = () => {
         <div>
           <input
             type="text"
-            placeholder="Search here"
+            placeholder="Eg: HTML, REACT, ChatGPT etc"
             value={query}
             onChange={(e) => searchPost(e.target.value)}
           />
